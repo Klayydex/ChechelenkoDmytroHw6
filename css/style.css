@@ -76,7 +76,8 @@ a {
     font-size: 36px;
 }
 
-.main__text {
+.main__text,
+.footer__main-text {
     font-size: 24px;
     color: rgb(52, 43, 59);
     margin-bottom: 24px;
@@ -95,4 +96,8 @@ a {
 
 .spec {
     font-weight: bold;
+}
+
+.footer__list {
+    list-style: square;
 }
