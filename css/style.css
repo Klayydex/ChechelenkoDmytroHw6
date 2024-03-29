@@ -78,12 +78,19 @@ a {
 
 .main__text {
     font-size: 24px;
+    color: rgb(52, 43, 59);
     margin-bottom: 24px;
     text-indent: 40px;
 }
 
+.main__image-spec {
+    display: flex;
+    align-items: center;
+}
+
 .article__image {
-    width: 90%;
+    width: 96%;
+    margin-bottom: 24px;
 }
 
 .spec {
