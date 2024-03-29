@@ -94,10 +94,18 @@ a {
     margin-bottom: 24px;
 }
 
+.main__list {
+    list-style: square;
+}
+
 .spec {
     font-weight: bold;
 }
 
-.footer__list {
-    list-style: square;
+.mod {
+    font-style:inherit;
+}
+
+.mod__style {
+    color: red;
 }
