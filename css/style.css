@@ -98,6 +98,35 @@ a {
     list-style: square;
 }
 
+.main__inner {
+    width: 30%;
+    margin-bottom: 5px;
+    padding: 6px 3px;
+    border: 1px solid #d7d9d7;
+    border-radius: 4px;
+    color: #3a3a51;
+    font-size: 1rem;
+}
+
+.main__form-btn {
+    cursor: pointer;
+    width: 22%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: 1px solid #d7d9d7;
+    border-radius: 4px;
+}
+
+.main__form-btn:hover {
+    background-color: #d8d9d7;
+    transition: all .2s;
+}
+
+.footer {
+    
+}
+
 .spec {
     font-weight: bold;
 }
