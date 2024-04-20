@@ -11,7 +11,7 @@
 <body>
     <div class="wrap">
         <header class="header">
-            <a id="logo" href="#" class="siteLogo">
+            <a id="logo" href="../index.html" class="siteLogo">
                 <img class="siteLogo__img" src="../images/logo__xtrim.png" alt="active_tourism">
                 <h2 class="siteLogo__heading">
                     Eкстрим з комфортом
@@ -22,6 +22,13 @@
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="../index.html" class="nav__link">Відправитись у подорож</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Контакти</a>
+                        <ul class="subnav">
+                            <li class="subnav__item">+380(99)9494949</li>
+                            <li class="subnav__item">+380(66)6464646</li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
@@ -38,7 +45,7 @@
                     </p>
                     <p class="main__text">
                         <label for="">Прізвище:</label>
-                        <input class="main__inner" aria-required="false" aria-invalid="false" required placeholder="Ваше Прізвище" type="text" name="Name">
+                        <input class="main__inner" aria-required="false" aria-invalid="false" required placeholder="Ваше Прізвище" type="text" name="SecondName">
                     </p>
                     <p class="main__text">
                         <label for="email">Email:</label>
@@ -50,11 +57,11 @@
                     </p>
                     <p class="main__text">
                         <label for="password">Пароль:</label>
-                        <input class="main__inner" type="password" autocomplete="on" placeholder="Пароль" >
+                        <input class="main__inner" type="password" autocomplete="on" placeholder="Пароль" name="password" required>
                     </p>
                     <p class="main__text">
                         <label for="password-repeat">Повторіть пароль:</label>
-                        <input class="main__inner" type="password" autocomplete="on" placeholder="Повторіть пароль" >
+                        <input class="main__inner" type="password" autocomplete="on" placeholder="Повторіть пароль" name="password-repeat" required>
                     </p>
                     <p class="main__text">
                         <input type="checkbox" aria-invalid="false" required name="Згода з правилами">
@@ -67,5 +74,6 @@
             </div>
         </div>
     </div>
+    <div class="underline"></div>
 </body>
 </html>

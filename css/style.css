@@ -158,3 +158,11 @@ a {
     color: red;
 }
 /* ------------------------ */
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #d7d9d7;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
